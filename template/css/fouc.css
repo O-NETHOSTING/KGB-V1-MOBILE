@@ -1,0 +1,25 @@
+/***
+FOUC fix
+***/
+/*
+.header h1 {
+    display:none;
+}
+.header .ui-title {
+    display:block !important;
+}
+.header a {
+    display:none;
+}
+.header .ui-btn {
+    display:block !important;
+}*/
+
+/* Hide header class */
+.header {
+    display:none;
+}
+/* But show it when it has .ui-header class */
+.ui-header {
+    display:block !important;
+}
